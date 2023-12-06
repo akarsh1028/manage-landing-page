@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'simplify': "url('/images/bg-simplify-section-desktop.svg')",
+      },
       colors: {
         'brightred': 'hsl(12, 88%, 59%)',
         'darkblue': 'hsl(228, 39%, 23%)',
