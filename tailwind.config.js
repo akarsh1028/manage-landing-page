@@ -16,13 +16,7 @@ module.exports = {
         'darkgrayishblue': 'hsl(227, 12%, 61%)',
         'verydarkblue': 'hsl(233, 12%, 13%)',
         'verypalered': 'hsl(13, 100%, 96%)',
-        'varylightgray': 'hsl(0, 0%, 98%)',
-      },
-      backgroundColor: {
-        'brightred': 'hsl(12, 88%, 59%)',
-      },
-      borderColor: {
-        'brightred': 'hsl(12, 88%, 59%)',
+        'verylightgray': 'hsl(0, 0%, 98%)',
       },
     },
   },
