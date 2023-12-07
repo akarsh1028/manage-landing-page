@@ -18,12 +18,17 @@ body {
   }
 
   .greyText {
-    @apply font-medium text-darkblue
+    @apply font-semibold cursor-pointer text-darkblue hover:text-darkgrayishblue
   }
 
   .footerlinks {
-    @apply text-gray-300 text-sm font-medium cursor-pointer
+    @apply text-gray-300 text-base font-medium cursor-pointer hover:text-brightred
   }
+
+  .social path:hover {
+    @apply fill-brightred
+  }
+
 }
 
 .attribution { font-size: 11px; text-align: center; }

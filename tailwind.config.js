@@ -17,6 +17,7 @@ module.exports = {
         'verydarkblue': 'hsl(233, 12%, 13%)',
         'verypalered': 'hsl(13, 100%, 96%)',
         'verylightgray': 'hsl(0, 0%, 98%)',
+        'hoverwhite': '#fb9072'
       },
     },
   },
