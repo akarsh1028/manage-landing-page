@@ -11,12 +11,6 @@ body {
 
 @layer components {
 
-  .spacing {
-    max-width: 1440px;
-    margin: auto;
-    padding-inline: 120px;
-  }
-
   .greyText {
     @apply font-semibold cursor-pointer text-darkblue hover:text-darkgrayishblue
   }
@@ -29,6 +23,31 @@ body {
     @apply fill-brightred
   }
 
+}
+
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+  }
+}
+
+.spacing {
+  max-width: 1440px;
+  margin: auto;
+  padding-inline: 120px;
+}
+
+.testimonial {
+  padding-inline: 0;
 }
 
 .attribution { font-size: 11px; text-align: center; }
