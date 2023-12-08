@@ -7,12 +7,21 @@ body {
   padding: 0;
   font-size: 1rem;
   overflow-x:hidden;
+  scroll-behavior: smooth;
 }
 
 @layer components {
 
+  .widthMax {
+    @apply max-w-[1440px] m-auto
+  }
+
+  .contentpadding {
+    @apply px-[30px] md:px-[80px] lg:px-[120px]
+  }
+
   .spacing {
-    @apply m-auto px-[30px] max-w-[1440px] md:px-[120px]
+    @apply widthMax contentpadding
   }
 
   .greyText {
