@@ -17,10 +17,10 @@ const SecondView = () => {
             <div key={item.title} className='flex gap-4'>
               <div className='rounded-full bg-brightred text-white h-9 py-1.5 px-6 max-md:hidden'>{item.index}</div>
               <div className='flex flex-col gap-5'>
-                <h5 className='max-md:text-sm font-bold text-darkblue md:pt-2 max-md:bg-verypalered max-md:flex items-center max-md:gap-3 rounded-tl-full rounded-bl-full'>
+                <div className='max-md:text-sm font-bold text-darkblue md:pt-2 max-md:bg-verypalered max-md:flex items-center max-md:gap-3 rounded-tl-full rounded-bl-full'>
                   <div className='rounded-full bg-brightred text-white h-9 py-1.5 px-6 md:hidden'>{item.index}</div>
                   {item.title}
-                </h5>
+                </div>
                 <p className='text-darkgrayishblue max-md:text-sm max-md:pr-4 max-md:leading-6'>{item.desc}</p>
               </div>
             </div>
