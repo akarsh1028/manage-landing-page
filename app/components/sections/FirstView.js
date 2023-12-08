@@ -14,7 +14,7 @@ const FirstView = () => {
           </div>
         </div>
         <div className='relative z-10 md:w-1/2'>
-          <Image src="/images/illustration-intro.svg" alt="illustration-intro" width="580" height="525" />
+          <Image priority={false} src="/images/illustration-intro.svg" alt="illustration-intro" width="580" height="525" />
         </div>
       </div>
     </section>

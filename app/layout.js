@@ -8,6 +8,7 @@ const inter = Be_Vietnam_Pro({ subsets: ['latin'], weight: ['100', '200', '300',
 
 export const metadata = {
   title: 'Frontend Mentor | Manage landing page by Akarsh Sharma',
+  description: 'Manage landing page created using Next.js and Tailwind',
   icons: {
     icon: '/favicon.png',
   },
