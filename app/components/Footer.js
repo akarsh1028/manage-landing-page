@@ -4,7 +4,7 @@ import Input from './inputs/Input';
 const Footer = () => {
 
   return (
-    <footer className='spacing bg-verydarkblue py-16 flex justify-between'>
+    <footer className='spacing bg-verydarkblue py-14 flex justify-between'>
       <div className='flex flex-col justify-between flex-1'>
         <Logo color='#ffffff' />
         <div className='flex gap-3'>
@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
       <div className='flex flex-col justify-between flex-1'>
         <Input/>
-        <div className='text-gray-400 text-sm flex justify-end'>Copyright 2020. All Rights Reserved</div>
+        <div className='text-gray-400 text-xs flex justify-end'>Copyright 2020. All Rights Reserved</div>
       </div>
     </footer>
   )

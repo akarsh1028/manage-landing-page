@@ -17,10 +17,10 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Footer />
-        <div class="attribution">
+        {/* <div class="attribution">
           Challenge by <Link href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</Link>.
           Coded by <Link href="https://akarshsharma.vercel.app/" target="_blank">Akarsh Sharma</Link>.
-        </div>
+        </div> */}
       </body>
     </html>
   )

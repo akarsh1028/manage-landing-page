@@ -4,7 +4,7 @@ import Button from '../inputs/Button'
 
 const FirstView = () => {
   return (
-    <section className='my-20'>
+    <section className='my-16'>
       <div className='flex justify-between z-10 gap-5'>
         <div className='flex flex-col w-1/2 gap-8'>
           <h1 className='mt-[3.5rem] font-bold text-darkblue leading-[4rem] text-[3.3rem]'>Bring everyone together to build better products.</h1>

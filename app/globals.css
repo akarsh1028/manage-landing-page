@@ -12,11 +12,11 @@ body {
 @layer components {
 
   .greyText {
-    @apply font-semibold cursor-pointer text-darkblue hover:text-darkgrayishblue
+    @apply font-semibold text-sm cursor-pointer text-darkblue hover:text-darkgrayishblue
   }
 
   .footerlinks {
-    @apply text-gray-300 text-base font-medium cursor-pointer hover:text-brightred
+    @apply text-gray-300 text-sm font-medium cursor-pointer hover:text-brightred
   }
 
   .social path:hover {
