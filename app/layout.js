@@ -2,7 +2,6 @@ import { Be_Vietnam_Pro } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
-import Link from 'next/link'
 
 const inter = Be_Vietnam_Pro({ subsets: ['latin'], weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'] })
 
