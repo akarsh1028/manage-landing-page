@@ -24,7 +24,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className='spacing relative overflow-hidden'>
+    <div role='header' className='spacing relative overflow-hidden'>
       <Image priority={false} src="/images/bg-tablet-pattern.svg" alt='tablet-pattern' className='absolute top-[-50px] right-[-70px] md:top-[-160px] md:right-[-160px] z-[-1]' width="814" height="814" />
       <nav role='navigation' className="flex justify-between items-center pb-5 pt-14 max-md:hidden">
         <Logo color="#242D52"/>
