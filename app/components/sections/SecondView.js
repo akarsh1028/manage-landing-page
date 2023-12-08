@@ -7,7 +7,7 @@ const SecondView = () => {
   
   return (
     <section className='widthMax overflow-hidden relative'>
-      <div className='flex flex-col md:flex-row justify-between contentpadding md:gap-20 gap-14 relative'>
+      <div className='flex flex-col md:flex-row justify-between md:contentpadding md:gap-20 gap-14 relative'>
         <div className='flex-1 max-md:flex max-md:flex-col max-md:justify-center max-md:items-center'>
           <h2 className='font-bold text-darkblue leading-[2.6rem] text-[1.8rem] mb-4 md:leading-[3.3rem] md:text-[2.3rem] max-md:px-10 max-md:text-center'>What’s different about Manage?</h2>
           <p className='text-darkgrayishblue w-11/12 md:w-8/12 max-md:text-center'>Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams. </p>
