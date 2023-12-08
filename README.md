@@ -42,8 +42,8 @@ Navigation
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github link](https://github.com/akarsh1028/manage-landing-page)
+- Live Site URL: [Versel Link](https://manage-landing-page-sooty-phi.vercel.app/)
 
 ### Built with
 
@@ -54,10 +54,13 @@ Navigation
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
 - [TailwindCSS](https://tailwindcss.com/) - CSS framework
+- [Github](https://github.com/)
+- [Vercel](https://vercel.com/)
 
 ## Author
 
-- Project - [Akarsh Sharma](https://qr-code-component-main-nine-drab.vercel.app/)
-- My Portfolio - [Akarsh Sharma](https://akarshsharma.vercel.app/)
+- Website - [Akarsh Sharma](https://akarshsharma.vercel.app/)
 - Frontend Mentor - [@akarsh1028](https://www.frontendmentor.io/profile/akarsh1028)
+- Github - [@akarsh1028](https://github.com/akarsh1028)
 - Linkedin - [@akarshsharma001](https://www.linkedin.com/in/akarshsharma001/)
+- Twitter - [@akarsh_sharma__](https://twitter.com/akarsh_sharma__)
