@@ -4,16 +4,16 @@ import Button from '../inputs/Button'
 
 const FirstView = () => {
   return (
-    <section className='my-16'>
-      <div className='flex justify-between z-10 gap-5'>
-        <div className='flex flex-col w-1/2 gap-8'>
-          <h1 className='mt-[3.5rem] font-bold text-darkblue leading-[4rem] text-[3.3rem]'>Bring everyone together to build better products.</h1>
-          <p className='w-7/12 text-darkgrayishblue'>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
-          <div className='w-1/2'>
+    <section className='max-md:mt-5 my-16'>
+      <div className='flex flex-col-reverse justify-between z-10 md:gap-5 md:flex-row max-md:items-center'>
+        <div className='flex flex-col gap-4 md:w-1/2 md:gap-8 max-md:items-center'>
+          <h1 className='font-bold text-darkblue leading-[2.9rem] text-[2.2rem] max-md:text-center md:text-[3.3rem] md:mt-[3.5rem] sm:leading-[4rem] sm:text-[3.4rem]'>Bring everyone together to build better products.</h1>
+          <p className='text-darkgrayishblue md:w-7/12 max-md:text-center max-md:leading-7'>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
+          <div className='md:w-1/2'>
             <Button label='Get Started' />
           </div>
         </div>
-        <div className='relative z-10 w-1/2'>
+        <div className='relative z-10 md:w-1/2'>
           <Image src="/images/illustration-intro.svg" alt="illustration-intro" width="580" height="525" />
         </div>
       </div>

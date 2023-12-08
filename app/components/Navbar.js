@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className='spacing relative overflow-hidden'>
       <Image src="/images/bg-tablet-pattern.svg" alt='tablet-pattern' className='absolute top-[-160px] right-[-160px] z-[-1]' width="814" height="814" />
-      <nav className="flex justify-between items-center pb-5 pt-14">
+      <nav className="flex justify-between items-center pb-5 pt-14 max-md:hidden">
         <Logo color="#242D52"/>
         <ul className='flex items-center gap-8'>
           <li className='greyText'>Pricing</li>
@@ -19,6 +19,12 @@ const Navbar = () => {
         </ul>
         <Button label='Get Started' />
       </nav>
+
+      <nav className="flex justify-between items-center pb-5 pt-10 md:hidden">
+        <Logo color="#242D52"/>
+        <Image src="/images/icon-hamburger.svg" alt='hamburger' width={25} height={18}/>
+      </nav>
+      
       <FirstView/>
     </div>
   )

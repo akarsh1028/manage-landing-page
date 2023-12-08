@@ -11,6 +11,10 @@ body {
 
 @layer components {
 
+  .spacing {
+    @apply m-auto px-[30px] max-w-[1440px] md:px-[120px]
+  }
+
   .greyText {
     @apply font-semibold text-sm cursor-pointer text-darkblue hover:text-darkgrayishblue
   }
@@ -38,12 +42,6 @@ body {
         scrollbar-width: none;  /* Firefox */
     }
   }
-}
-
-.spacing {
-  max-width: 1440px;
-  margin: auto;
-  padding-inline: 120px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
