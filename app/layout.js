@@ -8,6 +8,9 @@ const inter = Be_Vietnam_Pro({ subsets: ['latin'], weight: ['100', '200', '300',
 
 export const metadata = {
   title: 'Frontend Mentor | Manage landing page by Akarsh Sharma',
+  icons: {
+    icon: '/favicon.png',
+  },
 }
 
 export default function RootLayout({ children }) {
