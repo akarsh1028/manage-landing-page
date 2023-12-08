@@ -5,7 +5,7 @@ import Input from './inputs/Input';
 const Footer = () => {
 
   return (
-    <footer role="contentinfo" >
+    <footer >
       <div className='spacing bg-verydarkblue'>
         <div className='py-14 flex justify-between flex-col-reverse md:flex-row max-md:items-center max-md:gap-12'>
           <div className='flex flex-col-reverse justify-between flex-1 max-md:items-center md:flex-col max-md:gap-14'>
