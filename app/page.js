@@ -3,9 +3,9 @@ import Simplify from "./components/sections/Simplify";
 
 export default function Home() {
   return (
-    <>
+    <main role="main">
       <SecondView/>
       <Simplify />
-    </>
+    </main>
   )
 }
