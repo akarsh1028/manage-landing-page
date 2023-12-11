@@ -26,7 +26,7 @@ const SecondView = () => {
             </div>
           ))}
         </div>
-        <Image priority src="/images/bg-tablet-pattern.svg" alt='tablet-pattern' className='absolute bottom-[-570px] left-[-500px] z-[-1] max-md:hidden' width="814" height="814" />
+        <Image src="/images/bg-tablet-pattern.svg" alt='tablet-pattern' className='absolute bottom-[-570px] left-[-500px] z-[-1] max-md:hidden' width="814" height="814" />
       </div>
       <Testimonial/>
     </section>

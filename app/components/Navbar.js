@@ -25,7 +25,7 @@ const Navbar = () => {
 
   return (
     <div className='spacing relative overflow-hidden'>
-      <Image priority src="/images/bg-tablet-pattern.svg" alt='tablet-pattern' className='absolute top-[-50px] right-[-70px] md:top-[-160px] md:right-[-160px] z-[-1]' width="814" height="814" />
+      <Image src="/images/bg-tablet-pattern.svg" alt='tablet-pattern' className='absolute top-[-50px] right-[-70px] md:top-[-160px] md:right-[-160px] z-[-1]' width="814" height="814" />
       <nav className="flex justify-between items-center pb-5 pt-14 max-md:hidden">
         <Logo color="#242D52"/>
         <ul className='flex items-center gap-8'>
@@ -42,9 +42,9 @@ const Navbar = () => {
         <Logo color="#242D52"/>
         <div onClick={() => sidebarBtnClick()}>
           {sidebarStatus ? 
-            <Image priority src="/images/icon-close.svg" alt='hamburger' width={25} height={18}/>
+            <Image src="/images/icon-close.svg" alt='hamburger' width={25} height={18}/>
           :
-            <Image priority src="/images/icon-hamburger.svg" alt='hamburger' width={25} height={18}/>
+            <Image src="/images/icon-hamburger.svg" alt='hamburger' width={25} height={18}/>
           }
         </div>
       </nav>
@@ -52,7 +52,7 @@ const Navbar = () => {
       {sidebarStatus && (<Sidebar/>) }
       <FirstView/>
 
-      <Image priority src="/images/bg-tablet-pattern.svg" alt='tablet-pattern' className='absolute bottom-0 right-[-210px] md:hidden z-[-1]' width="814" height="814" />
+      <Image src="/images/bg-tablet-pattern.svg" alt='tablet-pattern' className='absolute bottom-0 right-[-210px] md:hidden z-[-1]' width="814" height="814" />
     </div>
   )
 }
